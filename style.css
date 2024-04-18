@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(211, 211, 211);
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main{
+    width: 350px;
+    height: 500px;
+    
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+    position: relative;
+}
+
+.frente, .costas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.frente{
+    background-image: url(media/86cb0d46851fc895a8d4d671fe8e6ea1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
