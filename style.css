@@ -13,32 +13,59 @@ body{
     background-color: gray;
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 
 main{
     width: 350px;
     height: 500px;
+    margin: auto;
+    
     
 }
 
 .card{
     width: 100%;
     height: 100%;
-    position: absolute;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
     position: relative;
+    transition-duration: 1500ms;
+    transform-style: preserve-3d;
+    
 }
 
 .frente, .costas{
     width: 100%;
     height: 100%;
     position: absolute;
+    border-radius: 15px;
+    backface-visibility: hidden;
 }
 
+.costas{
+    background-color: rgb(17, 11, 11);
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 5em;
+    
+}
+
+ 
+
+
 .frente{
-    background-image: url(media/86cb0d46851fc895a8d4d671fe8e6ea1.jpg);
+    background-image: url(media/0baa922c2701e4ec28101644e931d798.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+main:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
