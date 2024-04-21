@@ -19,6 +19,9 @@
 
 
 
+
+
+
 body{
     
     height: 100vh;
@@ -34,6 +37,7 @@ main{
     display: inline-flex;
     justify-content: left;
     align-items: center;
+    margin-top: 30px;
     
     
 }
