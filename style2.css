@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --font-destaque-: 'Libre Baskerville', sans-serif
+
+        
+    }
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.904);
+    font-family: var(--font-destaque-);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+ .costas >p{
+    text-align: center;
+    padding: 20px;
+}
+
+.card{
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    position: relative;
+    transition-duration: 1500ms;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.062);
+    transform-style: preserve-3d;
+    margin: 30px;
+    
+}
+
+.frente,
+.costas{
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    position: absolute; 
+    backface-visibility: hidden;
+    
+}
+
+.frente{
+    background-image: url(media/github.png);
+    background-repeat: no-repeat;
+    
+   
+}
+
+.costas{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3em;
+    transform: rotateY(180deg);
+    
+}
+a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.wpp2{
+    background-image: url(media/insta.jpeg);
+}
+.wpp3{
+    background-image: url(media/youtube.png);
+}
