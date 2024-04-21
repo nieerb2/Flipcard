@@ -69,8 +69,10 @@ main{
 }
 
 .frente{
-    background-image: url(media/github.png);
+    background-image: url(media/Beecrowd-Agosto-6-02-larger.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     
    
 }
@@ -100,8 +102,9 @@ a{
 }
 
 .wpp2{
-    background-image: url(media/insta.jpeg);
+    background-image: url(media/i558851.jpeg);
+    
 }
 .wpp3{
-    background-image: url(media/youtube.png);
+    background-image: url(media/1200x630wa.png);
 }
