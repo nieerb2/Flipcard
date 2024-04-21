@@ -85,8 +85,7 @@ main{
     justify-content: center;
     align-items: center;
     line-height: 3em;
-    transform: rotateY(180deg);
-    
+    transform: rotateY(180deg);   
 }
 a{
     width: 100%;
